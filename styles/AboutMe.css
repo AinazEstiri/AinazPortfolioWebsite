@@ -1,0 +1,99 @@
+.about {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #000000;
+    color: #f0f0f0;
+    margin-top: 100px;
+  }
+  
+
+  
+  .about h2 {
+    font-family: Libre Baskerville;
+    font-size: 80px;
+    color: #f0d53d;
+    height: 50px;
+    margin-top: 20px; /* Adjust the margin-top for "About Me" */
+    margin-bottom: 100px;  
+}
+  
+  .about .prompt {
+    width: 60%;
+    font-size: 30px;
+    margin-bottom: 50px;
+
+  }
+  
+  .about .aboutMe {
+    width: 60%;
+    font-size: 30px;
+    margin-bottom: 50px;
+
+  }
+
+  .prompt svg {
+    font-size: 60px;
+    margin: 5px;
+    color: white;
+  }
+  
+
+  .about p {
+    font-size: 30px;
+    font-family: Lato;
+    color: #f0f0f0;
+    margin-top: 20px;
+    margin-bottom: 100px; /* Increase the margin-bottom to add more space between paragraphs */
+  }
+  
+  .about button {
+    background-color: #b59e1f;
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px; /* Increase the padding to make the button bigger */
+    font-size: 35px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 20px;
+    font-family: Lato;
+  }
+  
+  .about button:hover {
+    background-color: #d4ba25;
+    transform: scale(1.15);
+  }
+  
+  .about button:hover a {
+    font-weight: bold;
+  }
+  
+
+
+  @media only screen and (max-width: 600px) {
+    .about h2 {
+      font-size: 40px;
+    }
+  
+    .about .prompt {
+      margin-top: 10px;
+      font-size: 20px;
+      width: 80%;
+    }
+  
+    .skills {
+      text-align: center;
+    }
+    .list {
+      padding: 0;
+    }
+  
+    .skills h2 {
+      font-size: 30px;
+    }
+  }
+  

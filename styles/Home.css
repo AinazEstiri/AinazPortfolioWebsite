@@ -1,0 +1,109 @@
+.home {
+    width: 100%;
+    align-items: center;
+
+    color: #ffffff;
+  }
+  
+  .about {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #000000;
+    color: #f0f0f0;
+    margin-top: 5px; /* Reduce the margin-top to decrease space from image to navbar */
+  }
+  
+  
+  .about h1 {
+    font-family: Libre Baskerville;
+    font-size: 60px;
+    color: #f0d53d;
+    height: 50px;
+    margin-top: 0px; /* Adjust the margin-top for "About Me" */
+    margin-bottom: 50px;  
+  }
+
+  
+  .about .promptHome {
+    width: 60%;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: monospace;
+  }
+
+  .promptHome svg {
+    font-size: 60px;
+    margin: 5px;
+    color: white;
+    font-family: monospace;
+  }
+
+  .about p {
+    font-size: 30px;
+    font-family: monospace;
+    color: #f0f0f0;
+    margin-bottom: 10px; /* Increase the margin-bottom to add more space between paragraphs */
+  }
+  
+  .about button {
+    background-color: #b59e1f ;
+    color: #ffffff; /* White color for text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; /* Transition for hover effect */
+    border-radius: 20px; /* Add border-radius for rounder corners */
+    margin-top: 200;
+  }
+  
+  .about button:hover {
+    background-color: #d4ba25; /* Change background color on hover */
+    transform: scale(1.15);
+  }
+  
+  .skills .list {
+    align-items: center; /* This property is not applicable to ul elements */
+    text-align: center; /* Center the content horizontally */
+    list-style: none;
+    width: 44%;
+  }
+
+  .App-logo{
+    height:35vmin;
+    border-radius: radius 50%;
+    margin-bottom: 10px;
+    border: .5vh solid #d4ba25
+
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .about h2 {
+      font-size: 40px;
+    }
+  
+    .about .prompt {
+      margin-top: 10px;
+      font-size: 20px;
+      width: 80%;
+      font-family: monospace;
+    }
+  
+    .skills {
+      text-align: center;
+    }
+    .list {
+      padding: 0;
+    }
+  
+    .skills h2 {
+      font-size: 30px;
+    }
+
+
+  }

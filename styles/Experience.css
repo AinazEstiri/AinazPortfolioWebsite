@@ -1,0 +1,48 @@
+.vertical-timeline-element-date {
+    color: white; /* Set the color to black */
+  }
+  
+  .skills {
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white; /* Set text color to white */
+  }
+  
+  .skills h1 {
+    align-items: center; /* This property is not applicable to ul elements */
+    text-align: center; /* Center the content horizontally */
+    color: #f0d53d; /* Set heading color */
+    margin-bottom: -40px; /* Adjust the bottom margin as needed */
+    margin-top: 130px;
+    font-family: Libre Baskerville;
+  }
+  
+  .skills .list {
+    align-items: center; /* This property is not applicable to ul elements */
+    text-align: center; /* Center the content horizontally */
+    list-style: none;
+    width: 44%;
+  }
+  
+  .list span {
+    align-items: center; /* This property is not applicable to ul elements */
+    text-align: center; /* Center the content horizontally */
+    font-size: 20px;
+    color: white; /* Set text color to white */
+  }
+  .skills .list .item ul {
+    font-size: 24px;
+    margin-bottom: 6px;
+    align-items: center; /* This property is not applicable to ul elements */
+    text-align: center; /* Center the content horizontally */
+  }
+  
+  .vertical-timeline-element--education .coursework {
+    font-size: 13px; /* Adjust the font size as needed */
+}
+
+  
